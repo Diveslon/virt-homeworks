@@ -65,6 +65,20 @@ diveslon@diveslon-Ubuntu:~$
 В виде результата этой задачи приложите вывод `--version` двух версий терраформа доступных на вашем компьютере 
 или виртуальной машине.
 
+### Ответ
+```
+diveslon@diveslon-Ubuntu:~$ sudo terraform --version
+Terraform v1.1.8
+on linux_amd64
+diveslon@diveslon-Ubuntu:~$ sudo terraform-old --version
+Terraform v1.1.4
+on linux_amd64
+
+Your version of Terraform is out of date! The latest version
+is 1.1.8. You can update by downloading from https://www.terraform.io/downloads.html
+diveslon@diveslon-Ubuntu:~
+```
+
 ---
 
 ### Как cдавать задание
